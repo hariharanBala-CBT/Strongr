@@ -1,0 +1,206 @@
+.booking-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+
+@media (max-width: 767px) {
+    .booking-content {
+        margin: 0;
+    }
+  }
+
+.booking-content .card-1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    width: 90%;
+    column-gap: 4rem;
+}
+
+.booking-content .card-1 small {
+    float: left;
+}
+
+.booking-content .card-1 h2{
+    margin-bottom: 1rem;
+}
+
+.booking-content .card-1 .ul{
+    margin-bottom: 1rem;
+    width: 45%;
+}
+
+.booking-content .card-1 .ul .li {
+    border: 1px solid rgb(0, 0, 0, 0.125);
+}
+
+.booking-content .card-1 .li{
+    border: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+
+.booking-content .card-1 .button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.booking-content .ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-content h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.no-bookings {
+    margin-top: 5rem;
+}
+ 
+/* .booking-content .card-2 .booking-form{
+    padding: 1.5rem;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+ 
+.booking-content .card-2 label{
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+ 
+.booking-content .card-2 select,.booking-content .card-2 input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 10rem;
+    max-width: 150px;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    background: #dadada;
+    color: #2b2b2b;
+}
+ 
+.booking-content .card-2 .ul{
+    margin: 0%;
+    padding-left: 0%;
+}
+
+ 
+.booking-content .card-2{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.17);
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+
+ 
+.booking-content .card-2 .container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+
+
+.booking-content .card-2 .select, .booking-content .card-2 .hour-field {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    column-gap: 3.5rem;
+}
+
+.booking-content .card-2 .select-date{
+    margin-top: 1rem;
+    margin-bottom: rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    column-gap: 5rem;
+}
+ 
+.booking-content .card-2 .select-hour{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+}
+ 
+.booking-content .card-2 input[type='text']{
+    width:32px;
+    height: 30px;
+}
+
+
+@media (max-width: 770px) {
+
+        .booking-content{
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px;
+        }
+
+        .booking-content .card-1 h2 {
+            justify-content: center;
+            margin-left: 100px;
+        }
+        .booking-content .card-2 .container-title {
+            margin-left: 50px;
+        }
+        .booking-content .card-2{
+            margin: 0;
+            padding-bottom: 0;
+        }
+        .booking-content .card-2 .select, .select-date, .hour-field{
+            padding: 0%;
+        }
+    
+      } */

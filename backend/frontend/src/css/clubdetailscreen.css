@@ -1,0 +1,268 @@
+.club-detail h1,
+.club-detail h2,
+.club-detail h3,
+.club-detail h4,
+.club-detail h5,
+.club-detail h6,
+.club-detail p,
+.club-detail ul,
+.club-detail li {
+margin: 3px;
+padding: 1px;
+}
+
+/* clubdetailscreen.css */
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Club Detail */
+  .club-detail {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  }
+  
+  .club-detail .carousel-container {
+    flex: 0 0 50%; /* 50% width on larger screens */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .club-detail .carousel-img {
+    width: 100%; /* Full width for images */
+    height: 400px; /* Fixed height for carousel images */
+    object-fit: cover;
+  }
+  
+  .club-detail .details {
+    flex: 0 0 50%; /* 50% width on larger screens */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .club-detail .lead {
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  .club-detail .btn1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .club-detail .btn1:hover {
+    background-color: #262255;
+    transition: 0.2s;
+  }
+  
+  .club-detail .popup1 {
+    font-size: small;
+    text-decoration: wavy;
+    color: blue;
+  }
+  
+  .club-detail table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .nav-item, .dropdown-item {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-link {
+    font-weight: 700;
+  }
+  
+  .similar-clubs {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between items */
+  }
+  
+  /* Popup Overlay */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .popup-content button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .popup1 {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    font-style: italic;
+    text-decoration: wavy;
+    color: blue;
+  }
+  
+  /* Responsive Media Queries */
+  @media screen and (max-width: 768px) {
+    .club-detail .carousel-container,
+    .club-detail .details {
+      flex: 0 0 100%; /* Full width on smaller screens */
+      padding: 15px;
+    }
+
+    .club-detail .details {
+        margin-top: 80px;
+    }
+  
+    .club-detail .carousel-img {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .carousel .slider-wrapper {
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+    }
+
+  
+    .similar-clubs {
+      margin-left: 0;
+    }
+    
+    .carousel-container {
+      margin-top: 10px;
+      padding: 10px;
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .club-detail .carousel-img {
+      height: 200px; /* Further adjust height for even smaller screens */
+    }
+    
+    .carousel-container {
+      padding: 5px;
+    }
+
+    .carousel .slider-wrapper {
+        width: 50%;
+        height: 50%;
+    }
+
+    .cc{
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+/* Reviews Section */
+.review-section {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.review-section h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.review-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.review-item strong {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.review-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Write a Review Form */
+.write-review {
+  margin-top: 30px;
+}
+
+.write-review h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.write-review form label {
+  width: fit-content;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.write-review form select,
+.write-review form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.write-review form button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.write-review form button:hover {
+  background-color: #0056b3;
+}
