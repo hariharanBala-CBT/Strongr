@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/strongr/static/css/main.21c28ea1.css",
+    "main.js": "/strongr/static/js/main.81ac65a2.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/strongr/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/redux.cjs": "/strongr/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "static/media/icons8-search.gif": "/strongr/static/media/icons8-search.88e14b466ba048ee60bc.gif",
+    "index.html": "/strongr/index.html",
+    "main.21c28ea1.css.map": "/strongr/static/css/main.21c28ea1.css.map",
+    "main.81ac65a2.js.map": "/strongr/static/js/main.81ac65a2.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/strongr/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21c28ea1.css",
+    "static/js/main.81ac65a2.js"
+  ]
+}
